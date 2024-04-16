@@ -48,16 +48,17 @@ li{
 
 .icon{
   font-size: var(--h2FontSize);
+  cursor: pointer;
 }
 
-img{
+/* img{ */
   /* width: 100%; */
   /* height: auto; */
-  width: 180px;
-  height: 180px;
+  /* width: 180px; */
+  /* height: 180px; */
   /* position: relative; */
-  object-fit: cover;
-}
+  /* object-fit: cover; */
+/* } */
 
 .flex{
   display: flex;
@@ -107,4 +108,10 @@ body{
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 2px 2px 8px var(--greyText);
+}
+
+/* hidden scrollbar */
+
+::-webkit-scrollbar{
+  display: none;
 }
