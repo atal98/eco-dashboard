@@ -35,55 +35,55 @@ const Activity = () => {
           <img src={user2} alt="Customer Image" />
 
           <div className="customerDetails">
-            <span className="name">Alex Dunphy</span>
+            <span className="name">Rob Lab</span>
             <small>Order a new plant</small>
           </div>
 
-          <div className="duration">2 min ago</div>
+          <div className="duration">4 min ago</div>
         </div>
 
         <div className="singleCustomer flex">
           <img src={user3} alt="Customer Image" />
 
           <div className="customerDetails">
-            <span className="name">Alex Dunphy</span>
+            <span className="name">Zendy May</span>
             <small>Order a new plant</small>
           </div>
 
-          <div className="duration">2 min ago</div>
+          <div className="duration">7 min ago</div>
         </div>
 
         <div className="singleCustomer flex">
           <img src={user4} alt="Customer Image" />
 
           <div className="customerDetails">
-            <span className="name">Alex Dunphy</span>
+            <span className="name">April Lui</span>
             <small>Order a new plant</small>
           </div>
 
-          <div className="duration">2 min ago</div>
+          <div className="duration">15 min ago</div>
         </div>
 
         <div className="singleCustomer flex">
           <img src={user5} alt="Customer Image" />
 
           <div className="customerDetails">
-            <span className="name">Alex Dunphy</span>
+            <span className="name">Rob Lab</span>
             <small>Order a new plant</small>
           </div>
 
-          <div className="duration">2 min ago</div>
+          <div className="duration">17 min ago</div>
         </div>
 
         <div className="singleCustomer flex">
           <img src={user6} alt="Customer Image" />
 
           <div className="customerDetails">
-            <span className="name">Alex Dunphy</span>
+            <span className="name">Jhon Jeo</span>
             <small>Order a new plant</small>
           </div>
 
-          <div className="duration">2 min ago</div>
+          <div className="duration">18 min ago</div>
         </div>
       </div>
     </div>

@@ -53,11 +53,11 @@ const Top = () => {
               <h1>My Stat</h1>
 
               <div className="flex">
-                <span>
+                <span className="rigthList">
                   Today <br /> <small>15 orders</small>
                 </span>
 
-                <span>
+                <span className="leftList">
                   This Month <br /> <small>200 orders</small>
                 </span>
               </div>
@@ -70,22 +70,22 @@ const Top = () => {
             <div className="imgDiv">
               <img src={img2} alt="plant and lamp" />
             </div>
+          </div>
 
-            {/* <div className="sidebarCard">
-              <BsQuestionCircle className="icon" />
-              <div className="cardContent">
-                <div className="circle1"></div>
-                <div className="circle2"></div>
+          <div className="sidebarCard">
+            {/* <BsQuestionCircle /> */}
+            <div className="cardContent">
+              <div className="circle1"></div>
+              <div className="circle2"></div>
 
-                <h3>Help Center</h3>
-                <p>
-                  Having Trouble in Planti. , please contact us from for more
-                  questions.
-                </p>
+              <h3>Help Center</h3>
+              <p>
+                Having Trouble in Planti. , please contact us from for more
+                questions.
+              </p>
 
-                <button className="btn">Go to Help Center</button>
-              </div>
-            </div> */}
+              <button className="btn">Go to Help Center</button>
+            </div>
           </div>
         </div>
       </div>

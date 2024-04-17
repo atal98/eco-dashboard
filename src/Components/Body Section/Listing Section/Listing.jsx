@@ -14,7 +14,7 @@ import user4 from "../../../Assets/img_7.jpg";
 const Listing = () => {
   return (
     <div className="listingSection">
-      <div className="heading flex">
+      <div className="heading flex demo">
         <h1>My Listings</h1>
         <button className="btn flex">
           See All <BsArrowRightShort className="icon" />

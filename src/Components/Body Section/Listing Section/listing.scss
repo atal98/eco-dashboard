@@ -113,7 +113,7 @@
         box-shadow: 0 2px 4px var(--inputColor);
 
         .users {
-          padding-right: 1rem;
+          // padding-right: 1rem;
           border-right: 2px solid var(--greyText);
 
           img {
@@ -144,6 +144,37 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+// Media Queries Responsive
+
+@media screen and (max-width: 990px) {
+  .listingSection {
+    .seller {
+      .card {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .listingSection {
+    .singleItem {
+      width: 200px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .listingSection {
+    .seller {
+      flex-direction: column;
+      .card {
+        flex-direction: row;
       }
     }
   }

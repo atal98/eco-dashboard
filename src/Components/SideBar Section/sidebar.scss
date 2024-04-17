@@ -175,3 +175,58 @@
     }
   }
 }
+
+// Media Querie Responsive
+
+@media screen and (max-width: 990px) {
+  .sideBar {
+    padding-bottom: 2rem;
+    .sidebarCard {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .sideBar {
+    .logoDiv {
+      text-align: center;
+      margin: auto;
+      padding: 1.5rem 0.5rem 0;
+      justify-content: center;
+
+      img {
+        max-width: 50px !important;
+        max-height: 50px !important;
+        margin: 0;
+        border-radius: 10px;
+        padding: 0.5rem;
+      }
+
+      h2 {
+        display: none;
+      }
+    }
+
+    .menuDiv,
+    .settingsDiv {
+      margin-top: 5.3rem;
+      .divTitle,
+      .smallText {
+        display: none;
+      }
+
+      .menuLists {
+        .listItem {
+          .menuLink,
+          .settingsLink {
+            justify-content: center;
+            .icon {
+              font-size: var(--h2FontSize);
+            }
+          }
+        }
+      }
+    }
+  }
+}
