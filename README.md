@@ -6,9 +6,10 @@ From tracking recent activity in orders to spotlighting the cream of the crop wi
 
 So, whether you're a budding entrepreneur or a seasoned floristry veteran, this dashboard is your secret garden, ready to nurture your business and help your floral dreams blossom into reality.
 
-## Demo
+## Preview
 
-## ![](admin-dashboard.gif)
+![](1.jpg)
+![](2.jpg)
 
 
 ## Acknowledgements
